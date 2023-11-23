@@ -1,0 +1,216 @@
+*{
+    color: white;
+}
+
+.layout{
+    background-color: #203147;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* <!-- Header --> */
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    height: 90vh;
+    background-image: url("./assets/image/soldeerfoto.jpeg");
+    background-size: cover;
+}
+
+.headerTitle{
+    font-family: 'BodoniFLF', sans-serif;
+    font-size: 5rem;
+}
+
+/* <!-- Elements --> */
+.hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+/* <!-- Classes --> */
+
+/* <!-- Sections --> */
+.sectionTitle{
+    font-size: 3rem;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.sectionText{
+    font-size: 1.2rem;
+}
+
+/* <!-- About me --> */
+.aboutMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+    margin: 0;
+}
+
+.profilePicture{    
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.aboutMeText{
+    width: 45%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #fdfdfd;
+
+    font-family: 'Monteserrat', sans-serif;
+}
+
+.aboutMeQuote{
+    width: 35%;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* <!-- My skills --> */
+.mySkills .sectionTitle{
+    margin-bottom: 50px;
+}
+
+.mySkillContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+   justify-content: center;
+   gap: 4rem;
+}
+
+.skillTitle{
+    font-family: 'Roboto', sans-serif;
+}
+
+.mySkillContainer div{
+    border-top: 1px solid #fdfdfd;
+    padding-top: 1.5rem;
+}
+
+.mySkillContainer ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.mySkillContainer ul li{
+    margin-top: 15px;
+}
+
+.mySkillSoftware{
+    grid-column-start: 2;
+}
+
+.mySkillHardware{
+    grid-column-start: 3;
+}
+
+.mySkillExperience{
+    grid-column-start: 4;
+}
+
+/* <!-- My projects --> */
+.myProjects>.sectionTitle{
+    margin-bottom: 100px;
+}
+
+.projectTitle{
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.myProjectContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+/* <!-- Contact Me --> */
+.getInTouchPar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+    margin: 0;
+}
+
+.getInTouchText{
+    width: 45%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+
+    font-family: 'Monteserrat', sans-serif;
+}
+
+.getinTouchContainer{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.getinTouchContainer ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.personalInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    grid-column-start: 2;
+    border-top: 1px solid #fdfdfd;
+    padding-top: 1.5rem;
+    
+}
+
+.socialMedia{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    grid-column-start: 3;
+    border-top: 1px solid #fdfdfd;
+    padding-top: 1.5rem;
+}
+
+.svgLayout{
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+}
+
+.svgLayoutImg{
+    margin-right: 5px;
+}
+
+.svgLayoutparagraph{
+    margin: 0;
+}
+
+/* <!-- Media Query --> */

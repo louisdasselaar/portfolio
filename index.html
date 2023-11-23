@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.cdnfonts.com/css/bodoniflf" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/bodoniflf');
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat&family=Roboto:wght@400&display=swap');
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <!-- Title -->
+        <header>
+            <div class="header">
+                <div>
+                    <h1 class="headerTitle">Louis Dasselaar</h1>
+                    <p class="headerText">Embedded Engineer</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero about me -->
+        <div class="aboutMe">
+            <img src="./assets/image/profielfoto.JPG" class="profilePicture" alt="profilepicture">
+            <h2 class="sectionTitle">About Me</h2>
+            <div class="sectionText aboutMeText">
+                <p> 
+                    I am a 20-year-old Engineer living in the Netherlands. 
+                    I pursued my education in Electrical Engineering at Hogeschool Utrecht, with a specialization in Embedded Systems.
+                </p>
+                <p>
+                    Throughout my academic journey, I developed a profound passion for both hardware and software development.
+                </p>
+            </div>
+            <img src="./assets/image/quotes.png" class="quotes" alt="quotation marks">
+            <h3 class="aboutMeQuote">My curiosity drives me to approach new challenges with enthusiasm.</h3>
+        </div>
+
+        <hr class="hr" />
+
+        <!-- Hero about my skills -->
+        <div class="mySkills">
+            <h2 class="sectionTitle">My Skills</h2>
+            <div class="mySkillContainer">
+                <div class="mySkillSoftware">
+                    <h3 class="skillTitle">Software</h3>
+                    <ul>
+                        <li>C / C++</li>
+                        <li>Python</li>
+                        <li>NordicSDK / Zephyr</li>
+                        <li>HTML, CSS, Javascript, SQL</li>
+                    </ul>
+                </div>
+                <div class="mySkillHardware">
+                    <h3 class="skillTitle">Hardware</h3>
+                    <ul>
+                        <li>Kicad</li>
+                        <li>Altium</li>
+                        <li>Hardware Qualification</li>
+                        <li>Hardware Reports</li>
+                    </ul>
+                </div>
+                <div class="mySkillExperience">
+                    <h3 class="skillTitle">Experience</h3>
+                    <ul>
+                        <li>Junior Hardware Engineer for an innovative IoT company named SODAQ</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr class="hr" />
+        <!-- Carousel my projects -->
+        <div class="myProjects">
+            <h2 class="sectionTitle">My Projects</h2>
+
+            <div class="myProjectContainer">
+                <div class="col-md-5">
+                    <h2 class="sectionTitle projectTitle">“Gait Guard” Ankle Bracelet</h2>
+                    <p>
+                        During my studies, I collaborated on this project with an engineering friend. Together, we invented a device that can provide autonomous haptic feedback to people with knee arthritis.
+                    </p>
+                    <p>
+                        We have demonstrated that it is possible to develop an ankle accessory that utilizes AI to make patients aware of their walking patterns. This has the potential to contribute to reducing knee pain and improving walking patterns.
+                    </p>
+                    <p>
+                        We successfully completed the project with a score of 8.2 out of 10 and continued our work in our spare time.
+                    </p>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Ancle Bracelet</title>
+                        <image href="./assets/image/enkelband.png" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" />
+                    </svg>
+                </div>
+            </div>
+
+            <hr class="hr" />
+
+            <div class="myProjectContainer">
+                <div class="myProjectContainer">
+                    <div class="col-md-3">
+                        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Connectivity Logger</title>
+                            <image href="./assets/image/track.jpg" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" />
+                        </svg>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
+                        <h2 class="sectionTitle projectTitle">Connectivity Logger</h2>
+                        <p>
+                            In my second year of Electrical Engineering at Hogeschool Utrecht, I interned at Sodaq as a Hardware Engineer. My task was to create a "connectivity logger" to test the range of both LTE-M and GPS signals within a building.                        </p>
+                        <p>
+                            My approach involved designing hardware that could be integrated into an existing Sodaq product. I was responsible for both hardware and software development, designing and implementing both aspects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+ 
+            <hr class="hr" />
+            <div class="myProjectContainer">
+                <div class="col-md-5">
+                    <h2 class="sectionTitle projectTitle"> “Active” One-Arm Wheelchair</h2>
+                    <p>
+                        During my studies, I collaborated with mechanical engineers on a significant project—an 'active' one-arm wheelchair designed for individuals paralyzed on one side of their body. Recognizing the importance of maintaining muscle activity for people in wheelchairs, we aimed to create a solution that promotes movement.
+                    </p>
+                    <p>
+                        The device is modular, easily attachable to compatible wheelchairs, and operates by manipulating the handle. I designed the functionality of this handle, which seamlessly transitions from neutral to active mode upon detecting a person's hand. The side panel features directional buttons, allowing users to select a direction before moving the handle to initiate motion.
+                    </p>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                    <a href="https://www.youtube.com/watch?v=vk8lTX_rp8I" target="_blank" rel="noopener noreferrer">
+                        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <image href="./assets/image/rolstoel.png" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <hr class="hr" />
+
+            <div class="myProjectContainer">
+                <div class="myProjectContainer">
+                    <div class="col-md-3">
+                        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Drones</title>
+                            <image href="./assets/image/drone.JPEG" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" />
+                        </svg>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
+                        <h2 class="sectionTitle projectTitle">Drones</h2>
+                        <p>
+                            When I was younger, I loved playing with RC cars, helicopters, and drones. My very first project involved building a drone. 
+                        </p>
+                        <p>
+                            It marked my initial encounter with Electrical Engineering, and this project is what truly got me hooked on hardware and software.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="hr" />
+
+            <div class="myProjectContainer">
+                <div class="col-md-5">
+                    <h2 class="sectionTitle projectTitle">Building Computers</h2>
+                    <p>
+                        have a passion for building computers, a hobby I've enthusiastically pursued since the age of 14.                     
+                    </p>
+                    <p>
+                        Over the years, I've not only assembled systems for personal use but have also extended my skills to help others with their computer needs. 
+                    </p>
+                    <p>
+                        Whether it's optimizing performance, troubleshooting issues, or customizing rigs for specific requirements, I find joy in the intricacies of computer assembly and the satisfaction it brings to both myself and those I assist.
+                    </p>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Computer</title>
+                            <image href="./assets/image/pc.JPEG" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        <!-- Hero Get in touch -->
+        <hr class="hr" />
+
+        <!-- Hero about my skills -->
+        <div class="getInTouch">
+            <h2 class="sectionTitle">Get In Touch</h2>
+
+            <div class="getInTouchPar">
+                <div class="sectionText getInTouchText">
+                    <p> 
+                        If you're at all interested in me or the projects I've been working on, don't hesitate to reach out or ask any questions. I'm open to connecting and sharing more about my experiences!
+                    </p>
+                    <p>
+                        Throughout my academic journey, I developed a profound passion for both hardware and software development.
+                    </p>
+                </div>
+            </div>
+
+            <div class="getinTouchContainer">
+                <div class="personalInfo">
+                    <div class="svgLayout">
+                        <div>
+                            <img src="./assets/svg/geo-alt.svg" alt="Adress">
+                        </div>
+                        <div>
+                            <p class="svgLayoutparagraph">Adress</p>
+                            <p>Hilverum, Netherlands</p>
+                        </div>
+                    </div>
+                    <div class="svgLayout">
+                        <div class="svgLayoutImg">
+                            <img src="./assets/svg/envelope-fill.svg" alt="Email">
+                        </div>
+                        <div>
+                            <p class="svgLayoutparagraph">Email</p>
+                            <p>l.dasselaar02@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="svgLayout">
+                        <div>
+                            <img src="./assets/svg/telephone-fill.svg" alt="Phone">
+                        </div>
+                        <div>
+                            <p class="svgLayoutparagraph">Phone</p>
+                            <p>+31 6 40770404</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="socialMedia">
+                    <div class="svgLayout">
+                        <div>
+                            <img src="./assets/svg/linkedin.svg" alt="LinkedIn">
+                        </div>
+                        <div>
+                            <a href="https://www.linkedin.com/in/louisdasselaar/">
+                                <p>LinkedIn</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="svgLayout">
+                        <div>
+                            <img src="./assets/svg/github.svg" alt="Github">
+                        </div>
+                        <div>
+                            <a href="https://github.com/louisdasselaar">
+                                <p>Github</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="svgLayout">
+                        <div>
+                            <img src="./assets/svg/instagram.svg" alt="Instagram">
+                        </div>
+                        <div>
+                            <a href="https://www.linkedin.com/in/louisdasselaar/">
+                                <p>Instagram</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <hr class="hr" />
+    </div>
+
+    <footer class="py-3 my-4 footer">
+        <hr/>
+            <p class="footer text-center text-body-primairy">© 2023 Louis Dasselaar</p>
+    </footer>
+
+    <script src="index.js" charset="UTF-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
