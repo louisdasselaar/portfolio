@@ -2,6 +2,11 @@
     color: white;
 }
 
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
 .layout{
     background-color: #203147;
     display: flex;
@@ -21,6 +26,7 @@
 
     height: 90vh;
     background-image: url("./assets/image/soldeerfoto.jpeg");
+    background-position: center;
     background-size: cover;
 }
 
@@ -214,3 +220,92 @@
 }
 
 /* <!-- Media Query --> */
+@media (max-width: 576px) 
+{
+    .layout{
+        font-size: 1rem;
+    }
+
+    .hr{
+        width: 20%;
+    }
+
+    /* <!-- Header --> */
+     .headerTitle {
+        font-size: 3rem;
+    }
+
+    /* <!-- About me --> */
+    .aboutMeText {
+        width: 90%;
+    }
+
+    .aboutMeQuote {
+        width: 90%;
+    }
+
+    /* <!-- My Skills --> */
+    .mySkills .sectionTitle{
+        margin-bottom: 25px;
+    }
+
+    .mySkillContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .mySkillSoftware,
+    .mySkillHardware,
+    .mySkillExperience {
+        width: 70%;
+    }
+
+    .mySkillContainer div{
+        border-top: 1px solid #fdfdfd;
+        padding-top: 1rem;
+    }    
+
+    .mySkillContainer ul li{
+        margin-top: 5px;
+    }
+
+    /* <!-- My Projects --> */
+    .myProjects>.sectionTitle{
+        margin-bottom: 50px;
+    }
+
+    .projectTitle{
+        font-size: 2.5rem;
+    }
+
+    .myProjectContainer {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .myProjectContainer .col-md-3 {
+        width: 80%; /* Set image width to 80% of the screen */
+        margin: auto; /* Center the image */
+        margin-bottom: 20px; /* Add some space between image and text */
+    }
+
+    .myProjectContainer .col-md-5 {
+        width: 90%; /* Adjust text width to 90% */
+        margin: auto; /* Center the text */
+    }
+
+    /* <!-- Get in touch --> */
+    .getInTouchText{
+        width: 80%;
+    }
+
+    .getinTouchContainer {
+        grid-template-columns: 1fr;
+    } */
+
+}
