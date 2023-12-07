@@ -303,9 +303,4 @@ body, html {
     .getInTouchText{
         width: 80%;
     }
-
-    .getinTouchContainer {
-        grid-template-columns: 1fr;
-    } */
-
 }
